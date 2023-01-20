@@ -6,20 +6,11 @@ import { About } from '../pages';
 describe('Requisito 02', () => {
   test('Verifica se a página "/about" contém um heading h2 com o texto About Pokédex', () => {
     renderWithRouter(<About />);
-    screen.logTestingPlaygroundURL();
 
     const h2 = screen.getByRole('heading', { level: 2, name: /About Pokédex/i });
 
     expect(h2).toBeInTheDocument();
   });
-  test('Verifica se a página contém dois parágrafos com texto sobre a Pokédex', () => {
-    renderWithRouter(<About />);
-
-    const p = screen.getAllByText(/Pokémon/i);
-
-    expect(p).toHaveLength(2);
-  });
-
   test('Verifica se a página contém dois parágrafos com texto sobre a Pokédex', () => {
     renderWithRouter(<About />);
 
