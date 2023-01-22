@@ -60,10 +60,10 @@ describe('Requisito 06', () => {
     userEvent.click(buttons[2]);
 
     const link = screen.getByRole('link', { name: /more details/i });
-    const charmander = screen.getByTestId('pokemon-name');
+    const caterpie = screen.getByTestId('pokemon-name');
 
     expect(link).toBeInTheDocument();
-    expect(charmander).toHaveTextContent(/caterpie/i);
+    expect(caterpie).toHaveTextContent(/caterpie/i);
 
     userEvent.click(link);
 
