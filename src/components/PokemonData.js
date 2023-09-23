@@ -3,15 +3,15 @@ import { pokemonType } from '../types';
 
 class PokemonData extends Component {
   render() {
-    const { pokemon } = this.props;
+    const { pokemon, isLocation } = this.props;
     const { summary, foundAt, name } = pokemon;
 
     return (
       <>
-        <section>
+       { !(isLocation) && <section>
           <h2>{ `Summary` }</h2>
           <p>{ `${summary}` }</p>
-        </section>
+        </section> }
         <section>
           <h2>{ `Game Locations of ${name}` }</h2>
           <div className="pokemon-habitat">

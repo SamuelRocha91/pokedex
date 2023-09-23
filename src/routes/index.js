@@ -10,6 +10,7 @@ import {
   Pokedex,
   PokemonDetails,
 } from '../pages';
+import PokemonLocation from '../pages/PokemonLocation';
 
 class Routes extends Component {
   render() {
@@ -34,10 +35,16 @@ class Routes extends Component {
             <PokemonDetails
               isPokemonFavoriteById={ isPokemonFavoriteById }
               match={ match }
+              isLocation={ false }
               pokemonList={ pokemonList }
               onUpdateFavoritePokemon={ onUpdateFavoritePokemon }
             />
           ) }
+        />
+        <Route
+          path="/locations"
+          component={ PokemonLocation }
+          isLocation
         />
         <Route
           path="/favorites"
