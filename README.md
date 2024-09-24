@@ -83,16 +83,6 @@ Para garantir que a aplicação está funcionando corretamente, você pode rodar
 npm test
 ```
 
-## Contribuição
-
-Sinta-se à vontade para contribuir com melhorias e novas funcionalidades! Para isso, siga os passos abaixo:
-
-1. Faça um **fork** do projeto.
-2. Crie uma **branch** para a sua feature (`git checkout -b minha-feature`).
-3. Faça **commit** das suas mudanças (`git commit -m 'Adiciona minha feature'`).
-4. **Envie** as alterações para o repositório remoto (`git push origin minha-feature`).
-5. Abra um **pull request** para revisão.
-
 ## Outros projetos
 
 - ⚽ [Typescript FootBall API](https://github.com/SamuelRocha91/trybeFutebolClube)

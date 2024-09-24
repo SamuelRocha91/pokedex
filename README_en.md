@@ -83,16 +83,6 @@ To ensure the application is working correctly, you can run the automated tests 
 npm test
 ```
 
-## Contribution
-
-Feel free to contribute with improvements and new features! To do so, follow these steps:
-
-1. **Fork** the project.
-2. Create a **branch** for your feature (`git checkout -b my-feature`).
-3. **Commit** your changes (`git commit -m 'Add my feature'`).
-4. **Push** the changes to the remote repository (`git push origin my-feature`).
-5. Open a **pull request** for review.
-
 ## Other projects
 
 - ⚽ [Typescript FootBall API](https://github.com/SamuelRocha91/trybeFutebolClube/blob/main/README_en.md)
