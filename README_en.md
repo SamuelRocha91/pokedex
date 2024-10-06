@@ -1,95 +1,107 @@
-# <img src="https://agenciars.com.br/wp-content/uploads/2022/06/Trybe.png" alt="Trybe Logo" width="52" height="30" /> Pokémon App <img src="https://agenciars.com.br/wp-content/uploads/2022/06/Trybe.png" alt="Trybe Logo" width="52" height="30" />
-
+# <img src="https://cdn-icons-png.flaticon.com/128/10832/10832132.png" alt="Trybe Logo" width="42" height="30" /> Pokémon App <img src="https://cdn-icons-png.flaticon.com/128/10832/10832132.png" alt="Trybe Logo" width="42" height="30" />
 
 ## 🌐 [![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/pokedex/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/pokedex/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/pokedex/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/pokedex/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/pokedex/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/pokedex/blob/main/README_ar.md)
 
-![App Preview](./public/podexFinal.gif)
+![Application Preview](./public/podexFinal.gif)
 
-Welcome to **Pokémon App**, a React application that displays a list of Pokémon, allows you to view specific details, and mark your favorites.
+Welcome to the **Pokémon App**, an application developed in React that displays a list of Pokémon, allows viewing specific details, and marking favorites.
 
-## Requirements
+<details>
+  <summary><h2>📋 Prerequisites</h2></summary>
 
-To test and run the application, you need the following environment setup:
+  To test and run the application, you need to have the following environment configured:
 
-- Node.js version 18 or 16 (Node.js 18 is recommended to ensure compatibility with dependencies).
+  - Node.js version 18 or 16 (Node.js 18 is recommended to ensure compatibility with dependencies).
 
-### Check Node.js version
+  ### Check the Node.js Version
 
-To verify if the installed Node.js version is compatible, run the following command:
+  To check if the installed version of Node.js is compatible, use the command:
 
-```bash
-node -v
-```
+  ```bash
+  node -v
+  ```
 
-Ensure the output is `v18.x.x` or `v16.x.x`. If you need to install or update Node.js, you can download it [here](https://nodejs.org/).
+  Make sure the output is `v18.x.x` or `v16.x.x`. If you need to install or update Node.js, you can download it [here](https://nodejs.org/).
 
-## Installation
+</details>
 
-Follow the steps below to run the application locally:
+<details>
+  <summary><h2>📦 Installation</h2></summary>
 
-1. **Clone the repository:**
+  Follow the steps below to run the application locally:
 
-   ```bash
-   git clone https://github.com/your-username/pokemon-app.git
-   ```
+  1. **Clone the repository:**
 
-2. **Enter the project directory:**
+     ```bash
+     git clone git@github.com:SamuelRocha91/pokedex.git
+     ```
 
-   ```bash
-   cd pokemon-app
-   ```
+  2. **Navigate to the project directory:**
 
-3. **Install dependencies:**
+     ```bash
+     cd pokemon-app
+     ```
 
-   Run the following command to install all necessary dependencies:
+  3. **Install dependencies:**
 
-   ```bash
-   npm install
-   ```
+     Run the command below to install all necessary dependencies:
 
-4. **Run the application:**
+     ```bash
+     npm install
+     ```
 
-   After installing the dependencies, start the application with the command:
+  4. **Run the application:**
 
-   ```bash
-   npm start
-   ```
+     After installing the dependencies, start the application with the command:
 
-   This will start the development server. Open your browser and go to `http://localhost:3000` to view the application.
+     ```bash
+     npm start
+     ```
 
-## Features
+     This will start the development server. Open your browser and go to `http://localhost:3000` to view the application.
 
-- **Pokedex:** Displays the list of Pokémon with the option to favorite them.
-- **Pokémon Details:** Shows detailed information about the selected Pokémon.
-- **Favorite Pokémon:** Dedicated page for Pokémon marked as favorites.
-- **About Page:** Explains the purpose of the application.
-- **Not Found Page (404):** Displayed when a non-existent route is accessed.
+</details>
 
-## Project Structure
+<details>
+  <summary><h2>✨ Features</h2></summary>
 
-The application is structured as follows:
+  - **Pokedex:** Displays the list of Pokémon with the ability to favorite.
+  - **Pokémon Details:** Shows detailed information about the selected Pokémon.
+  - **Favorite Pokémon:** A dedicated page for Pokémon marked as favorites.
+  - **About Page:** Explains the purpose of the application.
+  - **Not Found Page (404):** Shown when a nonexistent route is accessed.
 
-- **`/src`**: Contains all the source code of the application.
-  - **`/components`**: Reusable components.
-  - **`/pages`**: Application pages (Pokedex, Details, Favorites, About, etc.).
-  - **`/types`**: PropTypes definitions for prop validation.
-  - **`Routes.js`**: Defines the main routes of the application.
+</details>
 
-## Tests
+<details>
+  <summary><h2>📂 Project Structure</h2></summary>
 
-To ensure the application is working correctly, you can run the automated tests using:
+  The application is structured as follows:
 
-```bash
-npm test
-```
+  - **`/src`**: Contains all the source code of the application.
+    - **`/components`**: Reusable components.
+    - **`/pages`**: Application pages (Pokedex, Details, Favorites, About, etc.).
+    - **`/types`**: Defined PropTypes for prop validation.
+    - **`Routes.js`**: Defines the main routes of the application.
 
-## Other projects
+</details>
 
-- ⚽ [Typescript FootBall API](https://github.com/SamuelRocha91/trybeFutebolClube/blob/main/README_en.md)
-- 🐉 [Trybers and Dragons](https://github.com/SamuelRocha91/trybeAndDragons/blob/main/README_en.md)
-- 🌶️ [Recipes App](https://github.com/SamuelRocha91/ProjectRecipesApp/blob/main/README_en.md)
-- 🏪 [FrontEnd Online Store](https://github.com/SamuelRocha91/project-frontend-online-store/blob/main/README_en.md)
-- 🎮 [Trivia](https://github.com/SamuelRocha91/trivia_game/blob/main/README_en.md)
-- 🪧 [Blogs Api](https://github.com/SamuelRocha91/BlogsApi/blob/main/README_en.md)
-- 👛 [Expense organizer](https://github.com/SamuelRocha91/project-trybewallet/blob/main/README_en.md)
-- 🗡️ [Trybe Smith](https://github.com/SamuelRocha91/TrybeSmith/blob/main/README_en.md)
+<details>
+  <summary><h2>🧪 Tests</h2></summary>
+
+  To ensure that the application is working correctly, you can run the automated tests using:
+
+  ```bash
+  npm test
+  ```
+
+</details>
+
+<details>
+  <summary><h2>🔗 Other Projects</h2></summary>
+
+  - 🌶️ [Recipes App](https://github.com/SamuelRocha91/ProjectRecipesApp/blob/main/README_en.md)
+  - 🎮 [Trivia](https://github.com/SamuelRocha91/trivia_game/blob/main/README_en.md)
+  - 👛 [Expense Organizer](https://github.com/SamuelRocha91/project-trybewallet/blob/main/README_en.md)
+
+</details>

@@ -1,95 +1,107 @@
-# <img src="https://agenciars.com.br/wp-content/uploads/2022/06/Trybe.png" alt="Trybe Logo" width="52" height="30" /> Pokémon App <img src="https://agenciars.com.br/wp-content/uploads/2022/06/Trybe.png" alt="Trybe Logo" width="52" height="30" />
-
+# <img src="https://cdn-icons-png.flaticon.com/128/10832/10832132.png" alt="Trybe Logo" width="42" height="30" /> Pokémon App <img src="https://cdn-icons-png.flaticon.com/128/10832/10832132.png" alt="Trybe Logo" width="42" height="30" />
 
 ## 🌐 [![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/pokedex/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/pokedex/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/pokedex/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/pokedex/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/pokedex/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/pokedex/blob/main/README_ar.md)
 
 ![Vista previa de la aplicación](./public/podexFinal.gif)
 
-Bienvenido a **Pokémon App**, una aplicación desarrollada en React que muestra una lista de Pokémon, permite ver detalles específicos y marcar tus favoritos.
+Bienvenido a la **Pokémon App**, una aplicación desarrollada en React que muestra una lista de Pokémon, permite ver detalles específicos y marcar como favoritos.
 
-## Requisitos
+<details>
+  <summary><h2>📋 Requisitos previos</h2></summary>
 
-Para probar y ejecutar la aplicación, necesitas tener el siguiente entorno configurado:
+  Para probar y ejecutar la aplicación, necesitas tener el siguiente entorno configurado:
 
-- Node.js versión 18 o 16 (se recomienda Node.js 18 para asegurar compatibilidad con las dependencias).
+  - Node.js versión 18 o 16 (se recomienda Node.js 18 para asegurar compatibilidad con las dependencias).
 
-### Verificar la versión de Node.js
+  ### Verifica la versión de Node.js
 
-Para verificar si la versión de Node.js instalada es compatible, utiliza el siguiente comando:
+  Para verificar si la versión de Node.js instalada es compatible, utiliza el comando:
 
-```bash
-node -v
-```
+  ```bash
+  node -v
+  ```
 
-Asegúrate de que el resultado sea `v18.x.x` o `v16.x.x`. Si necesitas instalar o actualizar Node.js, puedes descargarlo [aquí](https://nodejs.org/).
+  Asegúrate de que la salida sea `v18.x.x` o `v16.x.x`. Si necesitas instalar o actualizar Node.js, puedes descargarlo [aquí](https://nodejs.org/).
 
-## Instalación
+</details>
 
-Sigue los pasos a continuación para ejecutar la aplicación localmente:
+<details>
+  <summary><h2>📦 Instalación</h2></summary>
 
-1. **Clonar el repositorio:**
+  Sigue los pasos a continuación para ejecutar la aplicación localmente:
 
-   ```bash
-   git clone https://github.com/tu-usuario/pokemon-app.git
-   ```
+  1. **Clona el repositorio:**
 
-2. **Entrar en el directorio del proyecto:**
+     ```bash
+     git clone git@github.com:SamuelRocha91/pokedex.git
+     ```
 
-   ```bash
-   cd pokemon-app
-   ```
+  2. **Entra en el directorio del proyecto:**
 
-3. **Instalar las dependencias:**
+     ```bash
+     cd pokemon-app
+     ```
 
-   Ejecuta el siguiente comando para instalar todas las dependencias necesarias:
+  3. **Instala las dependencias:**
 
-   ```bash
-   npm install
-   ```
+     Ejecuta el comando a continuación para instalar todas las dependencias necesarias:
 
-4. **Ejecutar la aplicación:**
+     ```bash
+     npm install
+     ```
 
-   Después de instalar las dependencias, inicia la aplicación con el siguiente comando:
+  4. **Ejecuta la aplicación:**
 
-   ```bash
-   npm start
-   ```
+     Después de instalar las dependencias, inicia la aplicación con el comando:
 
-   Esto iniciará el servidor de desarrollo. Abre tu navegador y accede a `http://localhost:3000` para visualizar la aplicación.
+     ```bash
+     npm start
+     ```
 
-## Funcionalidades
+     Esto iniciará el servidor de desarrollo. Abre tu navegador y accede a `http://localhost:3000` para visualizar la aplicación.
 
-- **Pokedex:** Muestra la lista de Pokémon con la opción de marcarlos como favoritos.
-- **Detalles del Pokémon:** Muestra información detallada del Pokémon seleccionado.
-- **Pokémon Favoritos:** Página dedicada a los Pokémon marcados como favoritos.
-- **Página Sobre:** Explica el propósito de la aplicación.
-- **Página No Encontrada (404):** Se muestra cuando se accede a una ruta inexistente.
+</details>
 
-## Estructura del Proyecto
+<details>
+  <summary><h2>✨ Funcionalidades</h2></summary>
 
-La aplicación está estructurada de la siguiente manera:
+  - **Pokedex:** Muestra la lista de Pokémon con la posibilidad de marcar como favorito.
+  - **Detalles del Pokémon:** Muestra la información detallada del Pokémon seleccionado.
+  - **Pokémon Favoritos:** Página dedicada a los Pokémon marcados como favoritos.
+  - **Página Sobre:** Explica el propósito de la aplicación.
+  - **Página No Encontrada (404):** Se presenta cuando se accede a una ruta inexistente.
 
-- **`/src`**: Contiene todo el código fuente de la aplicación.
-  - **`/components`**: Componentes reutilizables.
-  - **`/pages`**: Páginas de la aplicación (Pokedex, Detalles, Favoritos, Sobre, etc.).
-  - **`/types`**: Definiciones de PropTypes para la validación de props.
-  - **`Routes.js`**: Define las rutas principales de la aplicación.
+</details>
 
-## Pruebas
+<details>
+  <summary><h2>📂 Estructura del Proyecto</h2></summary>
 
-Para asegurarte de que la aplicación funcione correctamente, puedes ejecutar las pruebas automatizadas usando:
+  La aplicación está estructurada de la siguiente manera:
 
-```bash
-npm test
-```
+  - **`/src`**: Contiene todo el código fuente de la aplicación.
+    - **`/components`**: Componentes reutilizables.
+    - **`/pages`**: Páginas de la aplicación (Pokedex, Detalles, Favoritos, Sobre, etc.).
+    - **`/types`**: Tipos de PropTypes definidos para validación de props.
+    - **`Routes.js`**: Define las rutas principales de la aplicación.
 
-## Otros proyectos
+</details>
 
-- ⚽ [Typescript FootBall API](https://github.com/SamuelRocha91/trybeFutebolClube/blob/main/README_es.md)
-- 🐉 [Trybers and Dragons](https://github.com/SamuelRocha91/trybeAndDragons/blob/main/README_es.md)
-- 🌶️ [Recipes App](https://github.com/SamuelRocha91/ProjectRecipesApp/blob/main/README_es.md)
-- 🏪 [FrontEnd Online Store](https://github.com/SamuelRocha91/project-frontend-online-store/blob/main/README_es.md)
-- 🎮 [Trivia](https://github.com/SamuelRocha91/trivia_game/blob/main/README_es.md)
-- 🪧 [Blogs Api](https://github.com/SamuelRocha91/BlogsApi/blob/main/README_es.md)
-- 👛 [Expense organizer](https://github.com/SamuelRocha91/project-trybewallet/blob/main/README_es.md)
-- 🗡️ [Trybe Smith](https://github.com/SamuelRocha91/TrybeSmith/blob/main/README_es.md)
+<details>
+  <summary><h2>🧪 Pruebas</h2></summary>
+
+  Para garantizar que la aplicación funcione correctamente, puedes ejecutar las pruebas automatizadas utilizando:
+
+  ```bash
+  npm test
+  ```
+
+</details>
+
+<details>
+  <summary><h2>🔗 Otros Proyectos</h2></summary>
+
+  - 🌶️ [Recipes App](https://github.com/SamuelRocha91/ProjectRecipesApp/blob/main/README_es.md)
+  - 🎮 [Trivia](https://github.com/SamuelRocha91/trivia_game/blob/main/README_es.md)
+  - 👛 [Expense Organizer](https://github.com/SamuelRocha91/project-trybewallet/blob/main/README_es.md)
+
+</details>
